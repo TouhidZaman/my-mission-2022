@@ -6,8 +6,17 @@ p {
     color: dimgray;
     font-family: 'Roboto', sans-serif;
 }
+section {
+    margin-bottom: 50px;
+}
 .text-highlight {
     color: orange;
+}
+.section-title {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
 }
 .link-button {
     text-decoration: none;
@@ -88,4 +97,26 @@ p {
 }
 .mission-container > .item-3 {
     background-color: rgb(255, 244, 214, 1);
+}
+
+/* DEVELOP LIMITS SECTION  */
+.develop-limits-section {
+    display: flex;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+    background-position-x: 20px;
+}
+.develop-image-area {
+    width: 35%;
+    margin-left: 7%;
+    box-sizing: border-box;
+}
+.develop-content {
+    width: 50%;
+    align-self: center;
+}
+.develop-image-area img {
+    width: 80%;
 }
