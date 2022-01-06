@@ -144,3 +144,24 @@ section {
     padding-right: 3%;
 }
 /*END OF DEVELOP LIMITS SECTION AND COMMUNITY SECTION */
+
+/* FOOTER SECTION */
+footer {
+    background-color: #0B0D17;
+}
+.footer-content {
+    text-align: center;
+    padding: 10px 0 25px;
+}
+.footer-content h3{
+    font-family: Lobster;
+    color:white;
+    font-size: 36px;
+    letter-spacing: 0.7px;
+    line-height: 40px
+}
+.footer-content p{
+    font-family: 'Montserrat', sans-serif;
+    color:dimgray;
+    font-size: 14px;
+}
