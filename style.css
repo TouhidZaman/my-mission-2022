@@ -1,3 +1,55 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+p {
+    color: dimgray;
+}
+.text-highlight {
+    color: orange;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, orange);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+.half-width {
+    width: 40%;
+}
+
+/* STAY CFOCUSED SECTION  */
+.stay-focused-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stay-focused-section > .info {
+    padding-top: 80px;
+    align-self: center;
+}
+.stay-focused {
+    display: flex;
+}
+
+.stay-focused > .vertical-line {
+    border-left: 4px solid tomato;
+    height: 90px;
+    border-radius: 4px;
+    align-self: center;
+}
+.stay-focused > .title {
+    font-size: 30px;
+    padding-left: 10px;
+}
+.title > h1 {
+    margin: 0;
+}
+
+.person-area img {
+    width: 70%;
+    margin: auto 10%;
+}
+
