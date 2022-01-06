@@ -4,6 +4,7 @@ body {
 }
 p {
     color: dimgray;
+    font-family: 'Roboto', sans-serif;
 }
 .text-highlight {
     color: orange;
@@ -53,3 +54,38 @@ p {
     margin: auto 10%;
 }
 
+/* MY MISSION SECTION  */
+.my-mission-section {
+    width: 86%;
+    margin:100px auto;
+}
+.mission-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #13103A;
+}
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mission-item img {
+    width: 40%;
+}
+.mission-item {
+    width: 32%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.mission-container > .item-1 {
+    background-color: rgba(78, 158, 166, 0.1);
+}
+.mission-container > .item-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.mission-container > .item-3 {
+    background-color: rgb(255, 244, 214, 1);
+}
